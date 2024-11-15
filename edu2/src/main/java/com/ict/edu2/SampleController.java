@@ -17,7 +17,10 @@ public class SampleController {
     @GetMapping
     public String[] getHello3(){
         SampleVO svo = new SampleVO();
+        svo.setName(name:"고길동");
+        svo.setAge()
         return new String[] {"Hello", "World"};
     }
     
+    @Post
 }
